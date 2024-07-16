@@ -1,0 +1,197 @@
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: url('../img/bg.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #202a30;
+}
+.navbar img{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    animation: shake 5s ease-in-out infinite;
+}
+@keyframes shake{
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+.navbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-style: italic;
+}
+.navbar nav ul li{
+    margin-left: 20px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #748d92;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar nav ul li a:hover{
+    color: #124e65;
+}
+#skills{
+    color: #124e65;
+    font-weight: 700;
+}
+.skills_main{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    align-items: center;
+}
+.skills_main .title{
+    display: flex;
+    align-self: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.skill{
+    background: rgb(212, 217, 213, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 15rem;
+    transition: transform 0.1s;
+}
+.skill:hover{
+    transform: scale(1.05);
+}
+.skill i{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #124e65;
+    transition: transform 1.5s;
+}
+.skill i:hover {
+    transform: rotateY(360deg);
+  }
+.skill h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #202a30;
+}
+.skill-rating{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    background-color: #7f5870;
+    border-radius: 10px;
+}
+.skill-rating span{
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #202a30;
+}
+.skill-bar_1{
+    width: 60%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+}
+.skill-bar_2{
+    width: 80%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+}
+.skill-bar_3{
+    width: 70%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-bar_4{
+    width: 80%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-bar_5{
+    width: 100%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-bar_6{
+    width: 70%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-bar_7{
+    width: 90%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.skill-bar_8{
+    width: 100%;
+    height: 20px;
+    background-color: #dc95b3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.footer{
+    font-family: "Roboto", sans-serif;
+    padding: 1rem 2rem;
+    background: #202a30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer p{
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+.footer img{
+    height: 3rem;
+    animation: shake 5s ease-in-out infinite;
+}
+@keyframes shake{
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
